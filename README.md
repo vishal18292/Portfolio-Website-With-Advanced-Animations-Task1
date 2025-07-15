@@ -1,6 +1,8 @@
 # 🌐 Personal Portfolio Website — CodTech Internship Task 1
 
-This is a modern, animated personal portfolio website created by **Vishal Suthar** as part of the **Web Development Internship at CodTech IT Solutions**. Mentor: Neela Santosh
+This is a modern, animated personal portfolio website created by **Vishal Suthar** as part of the **Web Development Internship at CodTech IT Solutions**.
+
+**Mentor**: Neela Santosh
 
 > 🎯 Task Objective: Build a responsive and visually appealing personal portfolio website using modern animation libraries like **GSAP** or **Three.js**.
 
