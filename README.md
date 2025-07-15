@@ -9,7 +9,7 @@ This is a modern, animated personal portfolio website created by **Vishal Suthar
 ## 👨‍💻 Developer
 
 **Vishal Suthar**  
-B.Tech Computer Science Engineering (3rd Year)  
+B.Tech Computer Science Engineering 
 Sir Padampat Singhania University, Udaipur
 
 ---
