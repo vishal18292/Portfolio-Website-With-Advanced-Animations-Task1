@@ -1,0 +1,319 @@
+<!-- Portfolio Website for Internship -->
+<!-- Student: Vishal Suthar | B.Tech CSE | Sir Padampat Singhania University, Udaipur -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Vishal Suthar</title>
+  <meta name="title" content="Vishal Suthar Portfolio Website" />
+  <meta name="description" content="Photographer Portfolio Website built for CodTech Internship Task 1" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/svg+xml" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="font.css" />
+
+  <!-- Preload Important Images -->
+  <link rel="preload" as="image" href="./assets/images/loading.svg" />
+  <link rel="preload" as="image" href="./assets/images/loading-circle.svg" />
+</head>
+
+<body class="active" id="top">
+
+  <!-- Preloading Animation -->
+  <div class="loading" data-loading>
+    <img src="./assets/images/loading.svg" width="55" height="55" alt="loading" class="img" />
+    <img src="./assets/images/loading-circle.svg" width="70" height="70" alt="circle" class="circle" />
+  </div>
+
+  <!-- HEADER -->
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="40" height="40" alt="logo" />
+      </a>
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <img src="./assets/images/menu.svg" width="17" height="17" alt="menu icon" />
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/nav-logo.svg" width="140" height="40" alt="logo" />
+          </a>
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <span class="span one"></span>
+            <span class="span two"></span>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+          <li><a href="#home" class="navbar-link" data-nav-link>Home</a></li>
+          <li><a href="#gallery" class="navbar-link" data-nav-link>Gallery</a></li>
+          <li><a href="#about" class="navbar-link" data-nav-link>About</a></li>
+          <li><a href="#services" class="navbar-link" data-nav-link>Services</a></li>
+          <li><a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a></li>
+          <li><a href="#contact" class="navbar-link" data-nav-link>Contact</a></li>
+        </ul>
+
+        <button class="login-btn">
+          <img src="./assets/images/user.svg" width="21" height="21" alt="user icon" />
+          <span class="span">Login</span>
+        </button>
+
+        <p class="navbar-title">My Address</p>
+        <address class="navbar-text">
+          32, Tulsi Colony, Chittorgarh, Rajasthan
+        </address>
+
+        <p class="navbar-text">
+          Urgent issue? Call us at
+          <a href="tel:8085613846" class="contact-link">808-561-3846</a>
+        </p>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <article>
+
+            <!-- HERO SECTION -->
+      <section class="section hero" id="home" aria-label="home">
+        <div class="container">
+          <img src="./assets/images/hero-banner.png" width="322" height="322" alt="hero banner" class="hero-banner" />
+
+          <div class="hero-content">
+            <h1 class="h1 hero-title">Vishal Suthar</h1>
+            <div class="wrapper h2">
+              <strong class="strong" data-letter-effect>Photographer</strong>
+              <strong class="strong" data-letter-effect>Shutterbug</strong>
+              <strong class="strong" data-letter-effect>Cameraman</strong>
+              <strong class="strong" data-letter-effect>Pacific Portraits</strong>
+            </div>
+            <p class="hero-text">15+ Years Of Experience</p>
+          </div>
+        </div>
+        <img src="./assets/images/hero-shape.svg" width="211" height="189" alt="hero shape" class="shape" />
+      </section>
+
+      <!-- GALLERY SECTION -->
+      <section class="section gallery" id="gallery">
+        <div class="container">
+          <ul class="gallery-list">
+            <li class="gallery-item" data-reveal>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/gallery-1.jpg" width="450" height="625" loading="lazy" alt="The Drunken" class="img-cover" />
+                </figure>
+                <div class="card-content">
+                  <h3 class="h6"><a href="#" class="card-title">The Drunken</a></h3>
+                  <span class="card-tag">Food, Event</span>
+                </div>
+                <a href="#" class="btn-icon">
+                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
+                </a>
+              </div>
+
+              <div class="gallery-card">
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/gallery-2.jpg" width="450" height="625" loading="lazy" alt="Lettuce Entertain" class="img-cover" />
+                </figure>
+                <div class="card-content">
+                  <h3 class="h6"><a href="#" class="card-title">Lettuce Entertain</a></h3>
+                  <span class="card-tag">Landscape</span>
+                </div>
+                <a href="#" class="btn-icon">
+                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
+                </a>
+              </div>
+            </li>
+
+            <li class="gallery-item" data-reveal>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/gallery-3.jpg" width="450" height="625" loading="lazy" alt="Leaping Lizard" class="img-cover" />
+                </figure>
+                <div class="card-content">
+                  <h3 class="h6"><a href="#" class="card-title">Leaping Lizard</a></h3>
+                  <span class="card-tag">Model, Fashion</span>
+                </div>
+                <a href="#" class="btn-icon">
+                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
+                </a>
+              </div>
+
+              <div class="gallery-card">
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/gallery-4.jpg" width="450" height="625" loading="lazy" alt="Juan More Taco" class="img-cover" />
+                </figure>
+                <div class="card-content">
+                  <h3 class="h6"><a href="#" class="card-title">Juan More Taco</a></h3>
+                  <span class="card-tag">Architecture, Event</span>
+                </div>
+                <a href="#" class="btn-icon">
+                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
+                </a>
+              </div>
+            </li>
+
+            <li class="gallery-item" data-reveal>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/gallery-5.jpg" width="450" height="625" loading="lazy" alt="Goldilox Bagels" class="img-cover" />
+                </figure>
+                <div class="card-content">
+                  <h3 class="h6"><a href="#" class="card-title">Goldilox Bagels</a></h3>
+                  <span class="card-tag">People, Film</span>
+                </div>
+                <a href="#" class="btn-icon">
+                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
+                </a>
+              </div>
+
+              <div class="gallery-card">
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/gallery-6.jpg" width="450" height="625" loading="lazy" alt="Cookie Monstah" class="img-cover" />
+                </figure>
+                <div class="card-content">
+                  <h3 class="h6"><a href="#" class="card-title">Cookie Monstah</a></h3>
+                  <span class="card-tag">Wedding, Event</span>
+                </div>
+                <a href="#" class="btn-icon">
+                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
+                </a>
+              </div>
+            </li>
+
+            <li class="gallery-item" data-reveal>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/gallery-7.jpg" width="450" height="625" loading="lazy" alt="Divine Pastabilities" class="img-cover" />
+                </figure>
+                <div class="card-content">
+                  <h3 class="h6"><a href="#" class="card-title">Divine Pastabilities</a></h3>
+                  <span class="card-tag">Wedding, Model</span>
+                </div>
+                <a href="#" class="btn-icon">
+                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
+                </a>
+              </div>
+
+              <div class="gallery-card">
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/gallery-8.jpg" width="450" height="625" loading="lazy" alt="The Lockhart Bar" class="img-cover" />
+                </figure>
+                <div class="card-content">
+                  <h3 class="h6"><a href="#" class="card-title">The Lockhart Bar</a></h3>
+                  <span class="card-tag">Health & Wellness</span>
+                </div>
+                <a href="#" class="btn-icon">
+                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
+                </a>
+              </div>
+            </li>
+          </ul>
+
+          <a href="#services" class="scroll-down">
+            <img src="./assets/images/scroll-down.svg" width="40" height="66" loading="lazy" alt="mouse scroll" />
+          </a>
+
+          <img src="./assets/images/gallery-shape.svg" width="220" height="78" loading="lazy" alt="" class="shape" />
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="section about" id="about" aria-label="about me">
+        <div class="container">
+          <div class="about-content">
+            <h2 class="h2 section-title" data-reveal="right">
+              Hi. I’m <br /> Vishal Suthar
+            </h2>
+
+            <div class="wrapper has-before" data-reveal="right">
+              <p class="section-text">
+                A passionate <em class="em">photographer</em> working in this field for the last
+                <em class="em">10 years</em>. I’m ready to give you my best.
+              </p>
+
+              <img src="./assets/images/signature.png" width="151" height="92" loading="lazy" alt="signature" class="img" />
+            </div>
+          </div>
+
+          <figure class="about-banner" data-reveal="left">
+            <div class="img-holder has-before" style="--width: 512; --height: 684;">
+              <img src="./assets/images/about-banner.jpg" width="512" height="684" loading="lazy" alt="About Vishal" class="img-cover" />
+            </div>
+
+            <img src="./assets/images/about-shape-1.png" width="178" height="178" loading="lazy" alt="" class="shape shape-1" />
+            <img src="./assets/images/about-shape-2.svg" width="659" height="653" loading="lazy" alt="" class="shape shape-2" />
+          </figure>
+
+          <img src="./assets/images/about-shape-3.svg" width="239" height="232" loading="lazy" alt="" class="shape shape-3" />
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section class="footer-top section" id="contact">
+        <div class="container">
+          <p class="section-subtitle" data-reveal>Contact Us</p>
+          <h2 class="h2 section-title" data-reveal>
+            Work inquiry, Job opportunities? Send a message.
+          </h2>
+          <a href="#" class="btn-icon" data-reveal>
+            <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow icon" />
+          </a>
+
+          <!-- Contact Illustrations -->
+          <img src="./assets/images/footer-1.jpg" width="159" height="176" loading="lazy" alt="footer image" class="abs-img abs-img-1" data-reveal />
+          <img src="./assets/images/footer-2.jpg" width="265" height="275" loading="lazy" alt="footer image" class="abs-img abs-img-2" data-reveal />
+          <img src="./assets/images/footer-3.jpg" width="303" height="272" loading="lazy" alt="footer image" class="abs-img abs-img-3" data-reveal />
+          <img src="./assets/images/footer-4.jpg" width="175" height="175" loading="lazy" alt="footer image" class="abs-img abs-img-4" data-reveal />
+          <img src="./assets/images/footer-shape.svg" width="185" height="134" loading="lazy" alt="" class="shape" />
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-bottom">
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="40" height="40" loading="lazy" alt="logo" />
+        </a>
+
+        <ul class="social-list">
+          <li><a href="#" class="social-link">Fa.</a></li>
+          <li><a href="#" class="social-link">Insta.</a></li>
+          <li><a href="#" class="social-link">Tw.</a></li>
+        </ul>
+
+        <p class="copyright">Made with ❤️ by Vishal Suthar</p>
+      </div>
+    </div>
+
+    <div class="footer-bg has-before">
+      <img src="./assets/images/footer-bg.jpg" width="1920" height="1135" loading="lazy" alt="footer background" class="img-cover" />
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP BUTTON -->
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>0%</a>
+
+  <!-- CUSTOM CURSOR -->
+  <div class="cursor" data-cursor></div>
+
+  <!-- GSAP SCRIPT -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>

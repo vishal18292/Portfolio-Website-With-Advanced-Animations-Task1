@@ -9,10 +9,9 @@ This is a modern, animated personal portfolio website created by **Vishal Suthar
 ## 👨‍💻 Developer
 
 **Vishal Suthar**  
-B.Tech Computer Science Engineering 
+B.Tech Computer Science Engineering (3rd Year)  
 Sir Padampat Singhania University, Udaipur
 
-Mentor: Neela Santosh
 ---
 
 ## 🔥 Key Features
